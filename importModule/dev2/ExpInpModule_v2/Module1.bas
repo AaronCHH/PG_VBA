@@ -2,7 +2,8 @@ Attribute VB_Name = "Module1"
 '''  This development export the module into folder "VBAProjectFiles"   '''
 Public Sub ExportModules()
     Dim bExport As Boolean
-    Dim wkbSource As Excel.Workbook
+    ' Dim wkbSource As Excel.Workbook
+    Dim wkbSource As Word.Documents
     Dim szSourceWorkbook As String
     Dim szExportPath As String
     Dim szFileName As String
