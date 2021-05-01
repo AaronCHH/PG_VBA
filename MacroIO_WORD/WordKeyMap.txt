@@ -1,0 +1,24 @@
+Normal.Module1.InsHLine			Ctrl+/	
+Normal.Module1.cutParEng		Ctrl+;		
+Normal.Module1.cutParCht		Ctrl+'		
+Normal.Module1.JoinParEng       Alt+;
+Normal.Module1.JoinParCht       Alt+'
+Normal.Module1.JoinCutParEng    Alt+Ctrl+;
+Normal.Module1.JoinCutParCht    Alt+Ctrl+;
+
+Normal.Module3.SetKeyBindings
+
+MathTypeCommands.UILib.MTCommand_MathInputControl
+MathTypeCommands.UILib.MTCommand_EditEquationInPlace
+MathTypeCommands.UILib.MTCommand_EditEquationOpen
+MathTypeCommands.UILib.MTCommand_InsertDispEqn
+MathTypeCommands.UILib.MTCommand_InsertRightNumberedDispEqn
+MathTypeCommands.UILib.MTCommand_InsertInlineEqn
+MathTypeCommands.UILib.MTCommand_TeXToggle
+
+ClearAllFormatting     Alt+]
+WindowNewWindow		   Alt+/
+PasteTextOnly          Alt+Ctrl+]
+EditPaste			   Alt+[
+Highlight			   Alt+.
+
