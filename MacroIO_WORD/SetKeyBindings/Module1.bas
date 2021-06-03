@@ -63,6 +63,11 @@ Sub SetKeyBindings()
     KeyCategory:=wdKeyCategoryCommand, _
     Command:="Highlight", _
     KeyCode:=BuildKeyCode(wdKeyAlt, wdKeyPeriod)
+
+  KeyBindings.Add _
+    KeyCategory:=wdKeyCategoryCommand, _
+    Command:="NavPane", _
+    KeyCode:=BuildKeyCode(wdKeyAlt, wdKeyControl, wdKeyShift, wdKeyA)
     
 End Sub
 
